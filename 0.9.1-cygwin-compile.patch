@@ -1,0 +1,24 @@
+These variables conflict with macro definitions in <ctype.h>
+
+--- origsrc/pipewalker-0.9.1/src/button.h	2010-10-07 06:39:23.000000000 -0500
++++ src/pipewalker-0.9.1/src/button.h	2011-06-05 16:57:47.326463900 -0500
+@@ -21,5 +21,8 @@
+ #include "common.h"
+ #include "texture.h"
+ 
++#undef _X
++#undef _Y
++
+ class CGame;
+ 
+--- origsrc/pipewalker-0.9.1/src/explosion.h	2010-10-07 07:48:35.000000000 -0500
++++ src/pipewalker-0.9.1/src/explosion.h	2011-06-05 16:58:02.306320700 -0500
+@@ -20,5 +20,8 @@
+ 
+ #include "common.h"
+ 
++#undef _X
++#undef _Y
++
+ class CGame;
+ 

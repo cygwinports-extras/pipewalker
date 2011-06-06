@@ -1,0 +1,4 @@
+DESCRIPTION="SDL NetWalk game"
+HOMEPAGE="http://pipewalker.sourceforge.net/"
+SRC_URI="mirror://sourceforge/pipewalker/${P}-src.tar.gz"
+PATCH_URI="0.9.1-cygwin-compile.patch"
