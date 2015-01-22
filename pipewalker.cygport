@@ -1,6 +1,6 @@
 NAME="pipewalker"
 VERSION=0.9.4
-RELEASE=1
+RELEASE=2
 CATEGORY="Games"
 SUMMARY="SDL NetWalk game"
 DESCRIPTION="This is a puzzle game where pieces of a computer network are to
